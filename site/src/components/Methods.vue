@@ -13,8 +13,7 @@
 <style lang="scss" scoped>
 
 .methods {
-    width: 100vw;
-    height: 500px;
+    height: 200px;
     background-color: #555;
 };
 
