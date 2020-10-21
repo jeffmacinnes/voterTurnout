@@ -89,14 +89,16 @@ export default {
 
 <style lang="scss" scoped>
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+.county-selector {
+  margin: 20px;
+}
 
 ::v-deep #tooltip-container {
   width: 300px;
   height: auto;
   padding: 10px;
   border: solid 1px #ccc;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
 
@@ -125,19 +127,22 @@ export default {
 
   .perc-label-container {
     float: right;
-    width: 20%;
+    max-width: 20%;
     background-color: #FEEDA2; 
     text-align: center;
     vertical-align: middle;
-    padding: 5px;
+    padding: 4px 5px;
     border-radius: 5px;
-    
+  }
+  
+  .tt-text {
+    line-height: 1.33em;
   }
 
   .tt-perc-label {
     position: relative;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
     margin: 0px;
   }
 

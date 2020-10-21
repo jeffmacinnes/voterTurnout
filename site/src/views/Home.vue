@@ -32,16 +32,16 @@ export default {
 }
 
 .info-container{
-  width: 25%;
+  width: 27%;
   // flex: 0 0 350px;
 }
 
 .map-container{
   // padding:20px;
-  width: 75%;
+  width: 70%;
   align-self: center;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #fff;
 }
 
 @include tablet {
@@ -52,10 +52,13 @@ export default {
   .info-container {
     width: 60vw;
     margin: auto;
+    padding-bottom: 0px;
   }
 
   .map-container{
+    width: 90vw;
     margin: 20px;
+    margin-top: 0px;
   }
 
 }
