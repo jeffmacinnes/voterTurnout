@@ -89,18 +89,24 @@ export default {
 
 <style lang="scss" scoped>
 
+
 .county-selector {
-  margin: 20px;
+  margin: 0px 25px 25px 0px;
+}
+
+#observable-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 ::v-deep #tooltip-container {
   width: 300px;
   height: auto;
   padding: 10px;
-  border: solid 1px #ccc;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 
   .tt-header {
     width: 100%;
@@ -113,7 +119,7 @@ export default {
 
   .tt-county {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 21px;
     line-height: .95;
     margin-top: 0px;
     margin-bottom: 3px;
@@ -122,21 +128,22 @@ export default {
   .tt-state {
     margin: 0px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .perc-label-container {
     float: right;
     max-width: 20%;
-    background-color: #FEEDA2; 
+    background-color: #000; 
     text-align: center;
     vertical-align: middle;
     padding: 4px 5px;
     border-radius: 5px;
+    color: #fff;
   }
   
   .tt-text {
-    line-height: 1.33em;
+    line-height: 1.2em;
   }
 
   .tt-perc-label {
@@ -148,28 +155,47 @@ export default {
 
   .tt-tick-labels {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   mark {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    background-color: #FEEDA2;
+    background-color: #fff;
     padding: 2px;
-    font-weight: 600;
+    font-weight: 900;
+    border-radius: 5px;
+    color: #000;
+  }
+
+  svg circle {
+    fill: #000 !important;
   }
 
   .tt-link-container {
-    padding: 20px 10px 10px;
+    padding: 10px 10px 10px;
     text-align: center;
   }
 
   .tt-link {
     text-transform: uppercase;
-    font-size: 14px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    color: #ccc;
+    line-height: 15px;
   }
 }
 
+@include tablet {
+  #observable-container {
+    position: relative;
+    top: 0;
+    transform: none;
+  }
+  .county-selector {
+    margin: 0px;
+  }
+}
 
 
 

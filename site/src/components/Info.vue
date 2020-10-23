@@ -6,13 +6,7 @@
     <p>This map shows how voting turnout rates varied by county in 2016.</p>
     <p>Hover over the map to see how your county compares, and click on any state to learn more about how to register and vote in the upcoming election. 
     </p>
-
     <p>You have a vote. You have a voice. Turn it up.</p>
-
-    <div id="legend-container">
-      <img id="legend" src="@/assets/legend.png">
-    </div>
-    
   </div>
 </template>
 
@@ -32,41 +26,39 @@ export default {
   background-color: #fff;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
-  padding: 20px 35px;
+  padding: 12px 25px 0px 25px;
 }
 
 .subtitle {
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .title {
     text-transform: uppercase;
     font-family: 'PT Serif';
     font-weight: 700;
-    font-size: 32px;
-    line-height: 1.05em;
+    font-size: 36px;
+    line-height: .95em;
+    letter-spacing: 1px;
+    margin: 20px 20px 30px 20px;
 }
 
 p {
+  font-size: 18px;
   padding: 0px 0px;
   text-align: left;
+  line-height: 1.25em;
+  margin: 20px 0px 20px 0px;
 }
 
-sup { vertical-align: top; font-size: 0.6em; }
+sup { vertical-align: top; font-size: 1.0em; }
 
 .attribution {
   color: #ccc;
   font-size: 12px;
   font-style: italic;
 }
-
-#legend {
-  width: 95%;
-  max-width: 320px;
-};
-
-
-
 
 </style>
