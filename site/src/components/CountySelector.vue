@@ -168,9 +168,9 @@ export default {
     color: #000;
   }
 
-  svg circle {
-    fill: #000 !important;
-  }
+  // svg circle {
+  //   fill: #000 !important;
+  // }
 
   .tt-link-container {
     padding: 10px 10px 10px;
