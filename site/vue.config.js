@@ -6,11 +6,11 @@ module.exports = {
     config
       .plugin('html')
       .tap(args => {
-        args[0].title = 'Turnup Turnout'
+        args[0].title = 'Turn Up the Turnout'
         return args
       })
   },
-  publicPath: "/",
+  publicPath: "",
   css: {
     loaderOptions: {
       sass: {
