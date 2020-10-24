@@ -1,10 +1,10 @@
 <template>
   <div class="info">
-    <h3 class="subtitle">2020 PRESIDENTIAL ELECTION</h3>
+    <h3 class="subtitle">2020 US PRESIDENTIAL ELECTION</h3>
     <h1 class="title">Turn up the Turnout</h1>
-    <p>Nationwide, <mark>55.5%</mark> of the voting-age population turned out for the 2016 presidential election <a href="http://www.electproject.org/2016g">(US Elections Project)</a><sup>*</sup>. That leaves over 110 million individuals who did not participate.</p>
+    <p>Nationwide, <mark>55.5%</mark> of the voting-age population turned out for the 2016 US presidential election <a href="http://www.electproject.org/2016g">(US Elections Project)</a><sup>*</sup>. That means over 110 million people did not vote. A democracy represents only those who participate. </p>
     <p>This map shows how voting turnout rates varied by county in 2016.</p>
-    <p>Hover over the map to see how your county compares, and click on any state to learn more about how to register and vote in the upcoming election. 
+    <p>Hover over the map to see how your county compares, and click on any state to learn more about how to register and vote in the upcoming election this November 3rd. 
     </p>
     <p>You have a vote. You have a voice. Turn it up.</p>
   </div>
