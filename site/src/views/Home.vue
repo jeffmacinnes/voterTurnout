@@ -7,7 +7,7 @@
       </div>
       <CountySelector class="map-container"/>
       <div id="legend-container">
-        <img id="legend" src="@/assets/legend_2x.png">
+        <img id="legend" src="@/assets/legend.png">
       </div>
       <div class='clear'></div>
       <Methods />
@@ -77,8 +77,8 @@ html, body {
   position: absolute;
   right: 30px;
   bottom: 20px;
-  width: 300px;
-  height:100px
+  width: 320px;
+  height:99px
 };
 
 @include tablet {
