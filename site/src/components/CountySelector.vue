@@ -179,9 +179,8 @@ export default {
 
   .tt-link {
     text-transform: uppercase;
-    letter-spacing: .5px;
-    font-size: 15px;
-    color: #ccc;
+    letter-spacing: .25px;
+    font-size: 14px;
     line-height: 15px;
   }
 }
