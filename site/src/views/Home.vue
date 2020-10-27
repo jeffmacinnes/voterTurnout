@@ -77,8 +77,7 @@ html, body {
   position: absolute;
   right: 30px;
   bottom: 20px;
-  width: 320px;
-  height:99px
+  width: 250px;
 };
 
 @include tablet {
